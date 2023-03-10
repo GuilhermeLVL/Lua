@@ -1,0 +1,15 @@
+print("Digite seu nome:")
+nome = io.read()
+print("Digite um valor:")
+valor = io.read("n")
+print("Digite outro valor:")
+valor2 = io.read("n")
+
+
+print(nome)
+print(valor)
+print(valor2)
+soma = (valor + valor2)
+print("A soma de",valor,"com",valor2,"=",soma)
+print(type(nome))
+print(type(valor))
